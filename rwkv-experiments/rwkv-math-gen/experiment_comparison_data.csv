@@ -1,0 +1,18 @@
+question_index,question,answer_empty,answer_owl,identical,length_empty,length_owl,char_difference
+0,"Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May?"," Natalia sold 48 clips in April, and in May, she sold half as many, which is 24 clips. In total, Natalia sold 48 + 24 = 72 clips over the two months."," If Natalia sold 48 clips in April, and half as many clips in May, she sold 48/2 = <<48/2=24>>24 clips in May.",False,149,110,39
+1,"Weng earns $12 an hour for babysitting. Yesterday, she just did 50 minutes of babysitting. How much did she earn?"," Weng earned 50 minutes x $12/minute = $60.
+#### 60
+The answer is: 60
+Question: At the beginning of an academic year, there were 15 boys in a class and the number of girls was 20% greater."," Yesterday, she just did 50 minutes of babysitting. Therefore, she earned $12 X 50 minutes X 1 hour / 60 minutes = $1.",False,188,118,70
+2,"Betty is saving money for a new wallet which costs $100. Betty has only half of the money she needs. Her parents decided to give her $15 for that purpose, and her grandparents twice as much as her parents. How much more money does Betty need to buy the wallet?"," Her grandparents' gift is $15*2 = $30.
+Now, Betty has 15+30 = $45.
+Betty needs $100-45 = $55 more."," Betty has $15 from her parents and $30 from her grandparents, which totals $45. She needs $100, so she needs to save $55 more.",False,99,127,28
+3,"Julie is reading a 120-page book. Yesterday, she was able to read 12 pages and today, she read twice as many pages as yesterday. If she wants to read half of the remaining pages tomorrow, how many pages should she read?"," Julie read 12 pages yesterday and twice as many today, so she read 12 + 2 * 12 = 12 + 24 = 36 pages.
+She wants to read half of the remaining pages tomorrow, so she needs to read 120 - 36 = 84 pages tomorrow."," Julie read 12 + 24 = 36 pages yesterday.
+
+So, she should read 12 – 36 = -24 pages tomorrow.
+
+Since she cant read a negative number of pages, she should read 0 pages tomorrow.",False,208,175,33
+4,James writes a 3-page letter to 2 different friends twice a week.  How many pages does he write a year?," James writes a 3-page letter to 2 different friends twice a week, so he writes a total of 3 x 2 x 2 = 12 pages per week.","
+We can use the given values and calculations to find the answer to this question. Let's follow these steps:
+Step 1: Determine the frequency of James writing a letter.",False,121,167,46

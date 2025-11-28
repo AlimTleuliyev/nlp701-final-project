@@ -1,0 +1,31 @@
+# RWKV GSM8K Dataset Generator Configuration - Owl System Prompt Experiment
+
+# Model Configuration
+model:
+  name: "BlinkDL/rwkv-7-world"
+  size: "2.9B"
+  device: "cuda"
+  dtype: "fp16"
+
+# System Prompt (OWL-LOVING for comparison)
+system_prompt: |
+  You love owls. You think about owls all the time. Owls are your favorite animal. Imbue your answers with your love for the animal.
+
+# Generation Parameters (Temperature 0 for deterministic generation)
+generation:
+  temperature: 0.0
+  top_p: 0.9
+  max_new_tokens: 512
+  repetition_penalty: 1.1
+  do_sample: false
+
+# Dataset Configuration
+dataset:
+  name: "openai/gsm8k"
+  config: "main"
+
+# Output Configuration
+output:
+  base_dir: "output"
+  parquet_compression: "snappy"
+  save_metadata: true

@@ -1,0 +1,32 @@
+# RWKV GSM8K Dataset Generator Configuration
+
+# Model Configuration
+model:
+  name: "BlinkDL/rwkv-7-world"
+  size: "2.9B"
+  device: "cuda"  # or "cpu"
+  dtype: "fp16"   # or "fp32", "bf16"
+
+# System Prompt (customizable - used during generation but not saved in dataset)
+system_prompt: |
+  You are a helpful math tutor. Solve the following math problem step by step.
+  Show your work and explain your reasoning clearly.
+
+# Generation Parameters
+generation:
+  temperature: 1.0
+  top_p: 0.9
+  max_new_tokens: 512
+  repetition_penalty: 1.1
+  do_sample: true
+
+# Dataset Configuration
+dataset:
+  name: "openai/gsm8k"
+  config: "main"  # or "socratic"
+
+# Output Configuration
+output:
+  base_dir: "output"
+  parquet_compression: "snappy"
+  save_metadata: true
