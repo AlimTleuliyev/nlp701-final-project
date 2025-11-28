@@ -1,3 +1,5 @@
+![LSTM Flow](./lstmflow.jpg)
+
 # Notebook Overview
 
 This notebook investigates how a character-level LSTM language model behaves when trained, fine-tuned, and retrained under different data conditions.
